@@ -1,0 +1,52 @@
+body {
+    background-color: dimgray
+}
+h2 {
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+a:active {
+
+}
+a:hover {
+    color: darkgoldenrod;
+}
+a:visited { 
+    color: darksalmon;
+}
+
+.logo {
+height: 150px;
+}
+
+.container {
+background-color: burlywood;
+text-align: center
+}
+
+
+
+.menu-header {
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,0.2),
+        0 6px 10px 0   rgba(0,0,0,0.14),
+        0 1px 18px 0   rgba(0,0,0,0.12);
+
+}
+.menu-header li {
+    display: inline-block;
+}
+.menu-header a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: azure;
+    text-decoration: aqua;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+.menu-header a:hover {
+    color: coral;
+}
